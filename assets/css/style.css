@@ -8907,6 +8907,17 @@ a:active {
   background-image: url(../images/aboutbg.svg);
   background-size: contain;
 }
+.about-box-second {
+  box-shadow: 0px 0px 20px #fff;
+  border: 2px solid #fff;
+  background: #00061d 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 20px #ffffff;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  opacity: 1;
+  padding: 150px;
+  background-size: contain;
+}
 .aboutImg {
   position: absolute;
 }
@@ -9151,4 +9162,25 @@ a:active {
   color: #ffffff;
   text-shadow: 0px 0px 20px #ffffff;
   opacity: 1;
+}
+.completed-prj {
+  background-image: url('../images/completedprjbg.png');
+}
+.our-prj {
+  background-image: url('../images/ourcurrentprjbg.png');
+  background-size: contain;
+  background-position-x: center;
+  background-repeat: no-repeat;
+}
+.fund5-bg {
+  background-image: url('../images/fund5bg.png');
+  background-size: contain;
+  background-position-x: -50%;
+  background-repeat: no-repeat;
+}
+.goal-bg {
+  background-image: url('../images/goalsbg.png');
+  background-size: contain;
+  background-position-x: -50%;
+  background-repeat: no-repeat;
 }
