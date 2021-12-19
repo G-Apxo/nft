@@ -184,7 +184,7 @@ h4 a:hover {
   }
 }
 .section-title .title-main {
-  font-size: 48px !important;
+  font-size: 38px !important;
   font-weight: 700;
   line-height: 0.9em;
   margin-bottom: 8px;
@@ -9099,4 +9099,13 @@ a:active {
   right: 10%;
   top: 50%;
   transform: translate(80%, -50%);
+}
+.section-header {
+  text-align: left;
+  font: normal normal 900 90px Montserrat Alternates;
+  letter-spacing: 1.16px;
+  color: rgb(255, 255, 255, 0.3);
+}
+.splitter {
+  margin-top: 3.5rem;
 }
