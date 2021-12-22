@@ -8881,6 +8881,7 @@ a:active {
   font-size: 20px;
 }
 .mutable-text {
+  margin-bottom: 5rem !important;
   margin-top: 40px;
   font-size: 18px;
   color: rgba(255, 255, 255, 0.5) !important;
@@ -8903,6 +8904,9 @@ a:active {
   letter-spacing: 0px;
   color: #00061c;
   opacity: 1;
+}
+.extra {
+  color: white !important;
 }
 .costume-btn-submit {
   text-align: center !important;
@@ -8931,7 +8935,7 @@ a:active {
   border-radius: 8px;
   opacity: 1;
   padding: 150px;
-  background-image: url(../images/aboutbg.svg);
+  background-image: url('../images/aboutbg.svg');
   background-size: contain;
 }
 .about-box-second {
@@ -8952,9 +8956,10 @@ a:active {
   position: absolute;
   margin-top: -15%;
 }
-/* .goal-header {
+.about-header {
   position: absolute;
-  margin-left: 145px;
+  left: 31%;
+  transform: translateX(0%);
   background: #00061c;
   margin-top: -23px;
   font: normal 900 48px / Montserrat Alternates;
@@ -8968,9 +8973,9 @@ a:active {
   text-shadow: 0px 0px 20px #ffffff;
   text-transform: uppercase;
   opacity: 1;
-  width: 150px;
+  width: 188px;
   text-align: center;
-} */
+}
 .goal-header-second {
   position: absolute;
   left: 31%;
@@ -9191,22 +9196,22 @@ a:active {
   opacity: 1;
 }
 .completed-prj {
-  background-image: url('../images/completedprjbg.png');
+  background-image: url('../images/bubbles/ComplitedProjects.png');
 }
 .our-prj {
-  background-image: url('../images/ourcurrentprjbg.png');
+  background-image: url('../images/bubbles/CurrentPrj.png');
   background-size: contain;
   background-position-x: center;
   background-repeat: no-repeat;
 }
 .fund5-bg {
-  background-image: url('../images/fund5bg.png');
+  background-image: url('../images/bubbles/Fund5.png');
   background-size: contain;
   background-position-x: -50%;
   background-repeat: no-repeat;
 }
 .goal-bg {
-  background-image: url('../images/goalsbg.png');
+  background-image: url('../images/bubbles/Goals.png');
   background-size: contain;
   background-position-x: -50%;
   background-repeat: no-repeat;
@@ -9227,4 +9232,59 @@ a:active {
   text-shadow: 0px 0px 20px #ffffff;
   text-transform: uppercase;
   opacity: 1;
+}
+.first-anim {
+  font: normal 31px Montserrat Alternates;
+  text-align: left;
+  font: normal normal normal 34px/42px Montserrat Alternates;
+  letter-spacing: 0.34px;
+  color: rgba(0, 0, 0, 0.57);
+  animation: flicker 0.3s infinite ease-in-out;
+}
+.second-anim {
+  font: normal 33px Montserrat Alternates;
+  text-align: left;
+  font: normal normal normal 34px/42px Montserrat Alternates;
+  letter-spacing: 0.34px;
+  color: rgba(0, 0, 0, 0.57);
+  animation: flicker 0.3s infinite ease-in-out;
+}
+.third-anim {
+  font: normal 30px Montserrat Alternates;
+  text-align: left;
+  font: normal normal normal 34px/42px Montserrat Alternates;
+  letter-spacing: 0.34px;
+  color: rgba(0, 0, 0, 0.57);
+  animation: flicker 0.3s infinite ease-in-out;
+}
+
+.fourth-anim {
+  font: normal 24px Montserrat Alternates;
+  text-align: left;
+  font: normal normal normal 34px/42px Montserrat Alternates;
+  letter-spacing: 0.34px;
+  color: rgba(0, 0, 0, 0.57);
+  animation: flicker 0.3s infinite ease-in-out;
+}
+.fifth-anim {
+  font: normal 17px Montserrat Alternates;
+  text-align: left;
+  font: normal normal normal 34px/42px Montserrat Alternates;
+  letter-spacing: 0.34px;
+  color: rgba(0, 0, 0, 0.57);
+  animation: flicker 0.3s infinite ease-in-out;
+}
+@keyframes flicker {
+  0% {
+    color: #00061c;
+  }
+  100% {
+    color: #fff;
+  }
+}
+.margined-cols {
+  margin-right: 2rem;
+}
+.margined-cols-fund5 {
+  margin-bottom: 3rem;
 }
