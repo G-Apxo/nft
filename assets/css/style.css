@@ -9233,47 +9233,20 @@ a:active {
   text-transform: uppercase;
   opacity: 1;
 }
-.first-anim {
-  font: normal 31px Montserrat Alternates;
-  text-align: left;
-  font: normal normal normal 34px/42px Montserrat Alternates;
-  letter-spacing: 0.34px;
-  color: rgba(0, 0, 0, 0.57);
-  animation: flicker 0.3s infinite ease-in-out;
-}
-.second-anim {
-  font: normal 33px Montserrat Alternates;
-  text-align: left;
-  font: normal normal normal 34px/42px Montserrat Alternates;
-  letter-spacing: 0.34px;
-  color: rgba(0, 0, 0, 0.57);
-  animation: flicker 0.3s infinite ease-in-out;
-}
-.third-anim {
-  font: normal 30px Montserrat Alternates;
-  text-align: left;
-  font: normal normal normal 34px/42px Montserrat Alternates;
-  letter-spacing: 0.34px;
-  color: rgba(0, 0, 0, 0.57);
-  animation: flicker 0.3s infinite ease-in-out;
-}
 
-.fourth-anim {
-  font: normal 24px Montserrat Alternates;
-  text-align: left;
-  font: normal normal normal 34px/42px Montserrat Alternates;
-  letter-spacing: 0.34px;
-  color: rgba(0, 0, 0, 0.57);
-  animation: flicker 0.3s infinite ease-in-out;
+.animated-box {
+  height: 20vh;
+  background-image: url('../images/texts.svg');
+  background-repeat: no-repeat;
 }
-.fifth-anim {
+/* .fifth-anim {
   font: normal 17px Montserrat Alternates;
   text-align: left;
   font: normal normal normal 34px/42px Montserrat Alternates;
   letter-spacing: 0.34px;
   color: rgba(0, 0, 0, 0.57);
   animation: flicker 0.3s infinite ease-in-out;
-}
+} */
 @keyframes flicker {
   0% {
     color: #00061c;
