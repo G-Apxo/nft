@@ -8963,7 +8963,6 @@ a:active {
 }
 .goalsImg {
   position: absolute;
-  margin-top: -15%;
 }
 .about-header {
   position: absolute;
@@ -9249,7 +9248,7 @@ a:active {
   background-size: contain;
   margin-top: -10%;
 }
-.linkdin-bg{
+.linkdin-bg {
   background-image: url('../images/LinkdeinIconFixed.svg');
   background-repeat: no-repeat;
   background-position-x: right;
