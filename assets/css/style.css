@@ -4268,6 +4268,8 @@ a:active {
   .mainmenu > li > a.active {
     background-color: transparent;
     text-decoration: none;
+  }
+  .mainmenu > li > a::before {
     content: ' ';
     background-image: url('../images/active.svg');
     background-repeat: no-repeat;
