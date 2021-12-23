@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="99" height="99" viewBox="0 0 99 99">
+  <defs>
+    <filter id="Rectangle_468" x="0" y="0" width="99" height="99" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feFlood flood-color="#fff"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_334" data-name="Group 334" transform="translate(-605 -11913)">
+    <g transform="matrix(1, 0, 0, 1, 605, 11913)" filter="url(#Rectangle_468)">
+      <g id="Rectangle_468-2" data-name="Rectangle 468" transform="translate(30 30)" fill="#00061d" stroke="#fff" stroke-width="1">
+        <rect width="39" height="39" rx="4" stroke="none"/>
+        <rect x="0.5" y="0.5" width="38" height="38" rx="3.5" fill="none"/>
+      </g>
+    </g>
+    <path id="Icon_awesome-linkedin-in" data-name="Icon awesome-linkedin-in" d="M5.332,23.819H.393V7.917H5.332ZM2.86,5.747A2.873,2.873,0,1,1,5.72,2.861,2.884,2.884,0,0,1,2.86,5.747ZM23.814,23.819H18.886V16.078c0-1.845-.037-4.211-2.567-4.211-2.567,0-2.961,2-2.961,4.078v7.874H8.425V7.917h4.736v2.169h.069A5.189,5.189,0,0,1,17.9,7.518c5,0,5.916,3.291,5.916,7.566v8.735Z" transform="translate(642.591 11950.59)" fill="#fff"/>
+  </g>
+</svg>
