@@ -9075,9 +9075,9 @@ a:active {
   padding: 0;
 }
 .job-title {
-  font: normal 18px/36px Montserrat Alternates;
+  font: normal 15px Montserrat Alternates;
   text-align: left;
-  font: normal normal normal 18px/36px Montserrat Alternates;
+  font: normal normal normal 15px Montserrat Alternates;
   letter-spacing: 0.18px;
   color: rgba(255, 255, 255, 0.8);
 }
