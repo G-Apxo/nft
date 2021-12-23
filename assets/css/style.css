@@ -3825,7 +3825,7 @@ label {
   border-radius: 0px;
 }
 .form-control:focus {
-  color: #2a2a2a;
+  color: white;
   border-color: #fff;
   background-color: transparent;
 }
@@ -9084,8 +9084,8 @@ a:active {
 .icon-linkedin {
   font-size: 40px;
   position: absolute;
-  right: -12px;
-  bottom: 3px;
+  right: -43px;
+  bottom: -50px;
   line-height: 0;
 }
 .card-body {
