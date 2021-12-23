@@ -3997,7 +3997,7 @@ input[type='radio']:checked + label:before {
 .site-header.default-header-style {
   padding-top: 10px;
   padding-bottom: 10px;
-  position: absolute;
+  position: sticky;
   width: 100%;
   top: 0;
   left: 0;
@@ -4031,7 +4031,7 @@ input[type='radio']:checked + label:before {
 */
 .site-header.sticky {
   left: 0;
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
   z-index: 99;
@@ -4042,7 +4042,7 @@ input[type='radio']:checked + label:before {
 }
 @media only screen and (min-width: 1200px) {
   .site-header.sticky {
-    padding: 15px 0;
+    padding: 20px 0;
     display: block;
   }
 }
@@ -9248,6 +9248,12 @@ a:active {
   background-repeat: no-repeat;
   background-size: contain;
   margin-top: -10%;
+}
+.linkdin-bg{
+  background-image: url('../images/LinkdeinIconFixed.svg');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
 }
 /* .fifth-anim {
   font: normal 17px Montserrat Alternates;
