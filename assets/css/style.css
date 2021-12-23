@@ -9238,6 +9238,8 @@ a:active {
   height: 20vh;
   background-image: url('../images/texts.svg');
   background-repeat: no-repeat;
+  background-size: contain;
+  margin-top: -10%;
 }
 /* .fifth-anim {
   font: normal 17px Montserrat Alternates;
