@@ -9236,7 +9236,6 @@ a:active {
 
 .animated-box {
   height: 20vh;
-  background-image: url('../images/texts.svg');
   background-repeat: no-repeat;
   background-size: contain;
   margin-top: -10%;
