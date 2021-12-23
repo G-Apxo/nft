@@ -5003,6 +5003,7 @@ a:active {
   color: #ffffff;
   text-shadow: 0px 0px 20px #ffffff;
   opacity: 1;
+  font-size: 105px;
 }
 .hero-title-dark {
   letter-spacing: 0;
@@ -5081,7 +5082,7 @@ a:active {
     padding: 0 22px;
   }
 }
-.hero-block .hero-services {
+.hero-tester {
   padding-left: 0;
   margin-bottom: 30px;
   list-style: none;
@@ -5099,6 +5100,12 @@ a:active {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   line-height: 1.8em;
+  font-family: Montserrat Alternates;
+  font: normal medium 30px Montserrat Alternates;
+  text-align: center;
+  font: normal normal medium 30px/44px Montserrat Alternates;
+  letter-spacing: 0px;
+  color: #ffffff;
 }
 @media (min-width: 576px) {
   .hero-block .hero-services {
@@ -9248,17 +9255,86 @@ a:active {
   color: rgba(0, 0, 0, 0.57);
   animation: flicker 0.3s infinite ease-in-out;
 } */
-@keyframes flicker {
-  0% {
-    color: #00061c;
-  }
-  100% {
-    color: #fff;
-  }
-}
+
 .margined-cols {
   margin-right: 2rem;
 }
 .margined-cols-fund5 {
   margin-bottom: 3rem;
+}
+.first-group-anim {
+  animation: flicker 12s infinite ease-in-out;
+}
+.second-group-anim {
+  animation: flicker2 12s infinite ease-in-out;
+}
+.third-group-anim {
+  animation: flicker3 12s infinite ease-in-out;
+}
+
+@keyframes flicker {
+  0% {
+    fill: #fff;
+    opacity: 1;
+  }
+  25% {
+    fill: #00061c;
+    opacity: 1;
+  }
+  50% {
+    fill: #00061c;
+    opacity: 1;
+  }
+  75% {
+    fill: #00061c;
+    opacity: 1;
+  }
+  100% {
+    fill: #fff;
+    opacity: 1;
+  }
+}
+@keyframes flicker2 {
+  0% {
+    fill: #00061c;
+    opacity: 1;
+  }
+  25% {
+    fill: #fff;
+    opacity: 1;
+  }
+  50% {
+    fill: #00061c;
+    opacity: 1;
+  }
+  75% {
+    fill: #00061c;
+    opacity: 1;
+  }
+  100% {
+    fill: #00061c;
+    opacity: 1;
+  }
+}
+@keyframes flicker3 {
+  0% {
+    fill: #fff;
+    opacity: 1;
+  }
+  25% {
+    fill: #00061c;
+    opacity: 1;
+  }
+  50% {
+    fill: #fff;
+    opacity: 1;
+  }
+  75% {
+    fill: #00061c;
+    opacity: 1;
+  }
+  100% {
+    fill: #fff;
+    opacity: 1;
+  }
 }
