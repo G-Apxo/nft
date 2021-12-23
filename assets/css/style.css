@@ -9254,6 +9254,8 @@ a:active {
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: bottom;
+  -webkit-filter: drop-shadow( -5px 5px 5px rgb(242, 242, 242) );
+  filter: drop-shadow( -5px 5px 5px rgb(255, 255, 255) );
 }
 /* .fifth-anim {
   font: normal 17px Montserrat Alternates;
