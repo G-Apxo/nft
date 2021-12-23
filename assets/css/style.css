@@ -4042,7 +4042,7 @@ input[type='radio']:checked + label:before {
 }
 @media only screen and (min-width: 1200px) {
   .site-header.sticky {
-    padding: 15px 0;
+    padding: 20px 0;
     display: block;
   }
 }
@@ -9246,6 +9246,12 @@ a:active {
   background-repeat: no-repeat;
   background-size: contain;
   margin-top: -10%;
+}
+.linkdin-bg{
+  background-image: url('../images/LinkdeinIconFixed.svg');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
 }
 /* .fifth-anim {
   font: normal 17px Montserrat Alternates;
