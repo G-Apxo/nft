@@ -8976,7 +8976,7 @@ a:active {
 }
 .goalsImg {
   position: absolute;
-  padding-left: 19px;
+  padding-left: 17px;
   padding-top: 113px;
 }
 .about-header {
@@ -9444,4 +9444,7 @@ a:active {
   font: normal normal 900 18px/40px Montserrat Alternates;
   letter-spacing: 0px;
   color: #ffffff;
+}
+.bannerr {
+  margin-top: -2%;
 }
