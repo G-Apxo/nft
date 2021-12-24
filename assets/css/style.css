@@ -4262,19 +4262,27 @@ a:active {
     opacity: 1;
     visibility: visible;
   }
-
+.nav-link{
+  height: 80px;
+display: flex !important;
+justify-content: end;
+align-items: center;
+}
   /* Default Color */
   .mainmenu li:hover > a,
   .mainmenu > li > a:hover,
   .mainmenu > li > a.active {
+    background-image: url('../images/active.svg');
     background-color: transparent;
     text-decoration: none;
+
+    background-repeat: no-repeat;
+    background-position-y: -19px;
+
   }
   .mainmenu > li > a::before {
     content: ' ';
-    background-image: url('../images/active.svg');
-    background-repeat: no-repeat;
-    background-position-y: -33px;
+
   }
 
   .mainmenu .sub-menu > li > a:hover,
