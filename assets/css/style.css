@@ -8814,16 +8814,19 @@ a:active {
   line-height: 40px;
 }
 .project-header {
-  font-size: 26px !important;
+  font-size: 18px !important;
   color: #fff;
   text-shadow: 0px 0px 20px #fff;
-  text-align: center;
+  text-align: left;
   font: normal normal 800 32px/62px Montserrat Alternates;
   letter-spacing: 3.72px;
   color: #ffffff;
   text-shadow: 0px 0px 20px #ffffff;
   opacity: 1;
   padding-left: 24px;
+  line-height: 2rem;
+  padding-right: 30px;
+  padding-left: 40px;
 }
 .project-content {
   padding-right: 40px;
@@ -8836,11 +8839,12 @@ a:active {
   letter-spacing: 0px;
   color: #ffffff;
   opacity: 1;
+  font-size: 18px;
 }
 .mutable-text {
-  margin-bottom: 5rem !important;
+  margin-bottom: 4rem !important;
   margin-top: 40px;
-  font-size: 18px;
+  font-size: 16px;
   color: rgba(255, 255, 255, 0.5) !important;
 }
 .mutable-text-costum {
