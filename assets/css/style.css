@@ -9109,6 +9109,9 @@ a:active {
   margin-top: -2%;
   z-index: 9;
 }
+.highlightxt{
+  color: #15fdfd;
+}
 .badge-second {
   position: absolute;
   background: #15fdfd 0% 0% no-repeat padding-box;
