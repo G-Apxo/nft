@@ -9124,6 +9124,14 @@ a:active {
   transform: translateX(-50%);
   bottom: -9%;
 }
+.learnMore:hover {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -9%;
+  box-shadow: inset 0px 0px 15px #ffffff;
+  border-radius: 50%;
+}
 .arrow {
   position: absolute;
   right: 10%;
