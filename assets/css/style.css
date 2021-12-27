@@ -4212,7 +4212,7 @@ a:active {
     text-decoration: none;
 
     background-repeat: no-repeat;
-    background-position-y: -19px;
+    background-position-y: -13px;
   }
   .mainmenu > li > a::before {
     content: ' ';
