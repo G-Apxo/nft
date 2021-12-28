@@ -8947,7 +8947,8 @@ a:active {
 }
 .goal-header-second {
   position: absolute;
-  left: 31%;
+  margin-left: 33px;
+
   transform: translateX(0%);
   background: #00061c;
   margin-top: -23px;
