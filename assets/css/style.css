@@ -4949,6 +4949,19 @@ a:active {
   opacity: 1;
   font-size: 105px;
 }
+.hero-title-mobile {
+  letter-spacing: 0;
+  color: #fff;
+  text-shadow: 0px 0px 20px #fff;
+  text-align: center;
+  font: normal normal bold 100px/134px Montserrat Alternates;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-shadow: 0px 0px 20px #ffffff;
+  opacity: 1;
+  font-size: 50px;
+  line-height: 4rem;
+}
 .hero-title-dark {
   letter-spacing: 0;
   position: absolute;
@@ -9256,7 +9269,7 @@ a:active {
 .margined-cols-fund5 {
   margin-bottom: 3rem;
 }
-.first-group-anim {
+/* .first-group-anim {
   animation: flicker 12s infinite ease-in-out;
 }
 .second-group-anim {
@@ -9264,7 +9277,7 @@ a:active {
 }
 .third-group-anim {
   animation: flicker3 12s infinite ease-in-out;
-}
+} */
 
 @keyframes flicker {
   0% {
