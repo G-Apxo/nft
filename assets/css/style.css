@@ -136,6 +136,23 @@ h4 a:hover {
   text-transform: uppercase;
   opacity: 1;
 }
+.section-title .title-main-mobile {
+  font-size: 27px !important;
+  font-weight: 700;
+  line-height: 0.9em;
+  margin-bottom: 8px;
+  display: flex;
+  align-items: flex-end;
+
+  text-shadow: 0px 0px 20px #fff;
+  text-align: left;
+  font: normal normal 900 48px/40px Montserrat Alternates;
+  letter-spacing: 0px;
+  color: #ffffff;
+  text-shadow: 0px 0px 20px #ffffff;
+  text-transform: uppercase;
+  opacity: 1;
+}
 @media (min-width: 576px) {
   .section-title .title-main {
     font-size: 72px;
@@ -8826,6 +8843,18 @@ a:active {
   opacity: 1;
   line-height: 40px;
 }
+.our-nft-mobile {
+  font-size: 28px !important;
+  color: #fff;
+  text-shadow: 0px 0px 20px #fff;
+  text-align: center;
+  font: normal normal 800 62px/76px Montserrat Alternates;
+  letter-spacing: 3.72px;
+  color: #ffffff;
+  text-shadow: 0px 0px 20px #ffffff;
+  opacity: 1;
+  line-height: 40px;
+}
 .project-header {
   font-size: 18px !important;
   color: #fff;
@@ -9214,6 +9243,14 @@ a:active {
   transform: translate(80%, -50%);
   box-shadow: inset 0px 0px 15px #ffffff;
   border-radius: 50%;
+}
+.arrow-mobile {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 59%;
+  bottom: -100px;
+  transform: translate(80%, -50%);
 }
 .section-header {
   text-align: left;
