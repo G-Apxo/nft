@@ -4632,6 +4632,7 @@ a:active {
   .site-header.default-header-style,
   .site-header.header-style-one {
     z-index: 99;
+    background-color: #00061c;
   }
   .site-header.default-header-style .hamburger-menus,
   .site-header.header-style-one .hamburger-menus {
@@ -9600,4 +9601,7 @@ a:active {
 }
 .see-more {
   align-items: center;
+}
+.logo-img {
+  width: 77px;
 }
