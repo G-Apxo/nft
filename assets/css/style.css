@@ -9045,6 +9045,17 @@ a:active {
   opacity: 1;
   margin-bottom: 15px;
 }
+.card-text-mobile {
+  font: normal bold 18px/30px Montserrat Alternates;
+  letter-spacing: 0;
+  text-align: left;
+  font: normal normal bold 18px/30px Montserrat Alternates;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  margin-bottom: 0;
+  font-size: 13px;
+}
 .fname {
   font: normal Montserrat Alternates;
   letter-spacing: 0;
@@ -9053,6 +9064,17 @@ a:active {
   color: #ffffff;
   opacity: 1;
   margin-bottom: 10px;
+}
+.fname-mobile {
+  font: normal Montserrat Alternates;
+  letter-spacing: 0;
+  text-align: left;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  margin-bottom: 10px;
+  margin-bottom: 0;
+  font-size: 13px;
 }
 .card-footer {
   padding: 0;
@@ -9095,6 +9117,14 @@ a:active {
   letter-spacing: 0.18px;
   color: rgba(255, 255, 255, 0.8);
 }
+.job-title-mobile {
+  font: normal 15px Montserrat Alternates;
+  text-align: left;
+  font: normal normal normal 15px Montserrat Alternates;
+  letter-spacing: 0.18px;
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 13px;
+}
 .icon-linkedin {
   font-size: 40px;
   position: absolute;
@@ -9105,6 +9135,11 @@ a:active {
 .card-body {
   position: relative;
   padding-left: 0rem;
+}
+.card-body-mobile {
+  position: relative;
+  padding-left: 0rem;
+  padding: 0;
 }
 .wrapper {
   padding-top: 100px;
@@ -9195,6 +9230,25 @@ a:active {
   z-index: 9;
   padding: 1px 10px;
 }
+.badge-mobile-second {
+  position: absolute;
+  background: #15fdfd 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 20px #15fdfd;
+  border-radius: 16px;
+  opacity: 1;
+  font: normal 900 21px/25px Montserrat Alternates;
+  letter-spacing: 0;
+  color: #192242;
+  text-align: center;
+  font: normal normal 900 15px/25px Montserrat Alternates;
+  letter-spacing: 0px;
+  opacity: 1;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: -187px;
+  z-index: 9;
+  padding: 1px 10px;
+}
 
 .highlightxt {
   color: #15fdfd;
@@ -9255,6 +9309,12 @@ a:active {
 .section-header {
   text-align: left;
   font: normal normal 900 90px Montserrat Alternates;
+  letter-spacing: 1.16px;
+  color: rgb(255, 255, 255, 0.3);
+}
+.section-header-mobile {
+  text-align: left;
+  font: normal normal 900 12px Montserrat Alternates;
   letter-spacing: 1.16px;
   color: rgb(255, 255, 255, 0.3);
 }
@@ -9334,7 +9394,15 @@ a:active {
   background-size: contain;
   margin-top: -10%;
 }
-.linkdin-bg {
+.linkedin-bg {
+  background-image: url('../images/LinkdeinIconFixed.svg');
+  background-repeat: no-repeat;
+  background-position-x: right;
+  background-position-y: bottom;
+  -webkit-filter: drop-shadow(0px 0px 5px #ffffff);
+  filter: drop-shadow(0px 0px 5px #ffffff);
+}
+.linkedin-bg-mobile {
   background-image: url('../images/LinkdeinIconFixed.svg');
   background-repeat: no-repeat;
   background-position-x: right;
@@ -9523,4 +9591,13 @@ a:active {
 }
 .bannerr {
   margin-top: -5%;
+}
+.bootstrap-on-steroids {
+  margin-top: 6rem;
+}
+.test01 {
+  padding-top: 0 !important;
+}
+.see-more {
+  align-items: center;
 }
