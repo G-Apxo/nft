@@ -8927,7 +8927,7 @@ a:active {
 }
 .about-header {
   position: absolute;
-  left: 31%;
+  margin-left: 35px;
   transform: translateX(0%);
   background: #00061c;
   margin-top: -23px;
@@ -9149,6 +9149,14 @@ a:active {
   right: 10%;
   top: 50%;
   transform: translate(80%, -50%);
+}
+.arrow:hover{
+  position: absolute;
+  right: 10%;
+  top: 50%;
+  transform: translate(80%, -50%);
+  box-shadow: inset 0px 0px 15px #ffffff;
+  border-radius: 50%;
 }
 .section-header {
   text-align: left;
