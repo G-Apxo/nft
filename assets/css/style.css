@@ -9177,6 +9177,7 @@ a:active {
   border-radius: 0px 50px;
   opacity: 1;
   position: relative;
+  height: 160px;
 }
 .outer-border-but-highted {
   padding: 24px;
@@ -9202,6 +9203,7 @@ a:active {
   overflow: hidden;
   display: block;
   margin-bottom: 0px;
+  height: 141px;
 }
 .badge {
   position: absolute;
@@ -9255,7 +9257,7 @@ a:active {
   opacity: 1;
   left: 50%;
   transform: translateX(-50%);
-  margin-top: -187px;
+  margin-top: -151px;
   z-index: 9;
   padding: 1px 10px;
 }
