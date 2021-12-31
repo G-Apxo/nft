@@ -9343,13 +9343,17 @@ a:active {
   position: relative;
 }
 .footer-container {
-  background-image: url('../images/footerbanner.png');
+  /* background-image: url('../images/footer.svg'); */
   background-repeat: no-repeat;
   background-size: contain;
   background-position-x: right;
   height: 50vh;
   padding-left: 2rem;
   background-position-y: bottom;
+}
+.test1:hover{
+  fill: white;
+  opacity: 1;
 }
 .seeded {
   font: normal bold 18px/30px Montserrat Alternates;
@@ -9615,4 +9619,7 @@ a:active {
 }
 .logo-img {
   width: 77px;
+}
+#test1:hover{
+  fill: white;
 }
