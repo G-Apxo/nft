@@ -9410,7 +9410,7 @@ a:active {
   background-size: contain;
   margin-top: -10%;
 }
-.linkedin-bg {
+.linkdin-bg {
   background-image: url('../images/LinkdeinIconFixed.svg');
   background-repeat: no-repeat;
   background-position-x: right;
@@ -9418,14 +9418,14 @@ a:active {
   -webkit-filter: drop-shadow(0px 0px 5px #ffffff);
   filter: drop-shadow(0px 0px 5px #ffffff);
 }
-.linkedin-bg-mobile {
+/* .linkedin-bg-mobile {
   background-image: url('../images/LinkdeinIconFixed.svg');
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: bottom;
   -webkit-filter: drop-shadow(0px 0px 5px #ffffff);
   filter: drop-shadow(0px 0px 5px #ffffff);
-}
+} */
 
 /* .fifth-anim {
   font: normal 17px Montserrat Alternates;
