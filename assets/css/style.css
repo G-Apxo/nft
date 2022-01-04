@@ -9372,9 +9372,49 @@ a:active {
   background-position-y: bottom;
 }
 .test1:hover {
-  fill: white;
-  opacity: 1;
+  animation: nicehover 1s linear;
+  animation-fill-mode: forwards;
 }
+
+/* HERE ARE SOME ANIMATIONS  */
+
+@keyframes nicehover {
+  0% {
+    fill: white;
+    opacity: 0.5;
+  }
+  30% {
+    fill: white;
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+}
+
+.costume-btn:hover {
+  animation: nicehover 1s linear;
+  animation-fill-mode: forwards;
+}
+
+@keyframes nicehover {
+  0% {
+    background-color: #7673fe;
+    color: white;
+    opacity: 0.5;
+  }
+  30% {
+    background-color: #7673fe;
+    color: white;
+    opacity: 1;
+  }
+  90% {
+    background-color: #7673fe;
+    color: white;
+    opacity: 1;
+  }
+}
+
 .seeded {
   font: normal bold 18px/30px Montserrat Alternates;
   text-shadow: 0px 0px 20px;
