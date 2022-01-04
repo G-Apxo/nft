@@ -9674,3 +9674,7 @@ a:active {
 .arrow-class-mobile {
   margin-top: -8px;
 }
+.rowflexed {
+  display: flex;
+  flex-direction: column;
+}
