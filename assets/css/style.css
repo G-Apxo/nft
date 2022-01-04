@@ -12,20 +12,19 @@ body {
   position: relative;
   overflow-x: hidden;
 }
-.content-mobile{
+.content-mobile {
   display: none;
- }
+}
 @media only screen and (max-width: 575px) {
   body {
     font-size: 15px;
-    
   }
-  .content-mobile{
+  .content-mobile {
     display: block;
-   }
-   .content-web{
-     display: none;
-   }
+  }
+  .content-web {
+    display: none;
+  }
 }
 
 /*-------------------------------------------------
@@ -9051,6 +9050,14 @@ a:active {
   font: normal normal normal 16px/44px Montserrat Alternates;
   letter-spacing: 0px;
 }
+.card-title-mobile {
+  font: normal / Montserrat Alternates;
+  letter-spacing: 0;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: left;
+  font: normal normal normal 10px/44px Montserrat Alternates;
+  letter-spacing: 0px;
+}
 .card-text {
   font: normal bold 18px/30px Montserrat Alternates;
   letter-spacing: 0;
@@ -9062,7 +9069,7 @@ a:active {
   margin-bottom: 15px;
 }
 .card-text-mobile {
-  font: normal bold 18px/30px Montserrat Alternates;
+  font: normal bold 10px/30px Montserrat Alternates;
   letter-spacing: 0;
   text-align: left;
   font: normal normal bold 18px/30px Montserrat Alternates;
@@ -9160,6 +9167,9 @@ a:active {
 .wrapper {
   padding-top: 100px;
   padding-bottom: 100px;
+}
+.wrapper-fund5 {
+  padding-top: 100px;
 }
 .wrapper-mobile {
   padding-top: 50px;
@@ -9361,7 +9371,7 @@ a:active {
   padding-left: 2rem;
   background-position-y: bottom;
 }
-.test1:hover{
+.test1:hover {
   fill: white;
   opacity: 1;
 }
@@ -9429,12 +9439,13 @@ a:active {
   filter: drop-shadow(0px 0px 5px #ffffff);
 }
 /* .linkedin-bg-mobile {
-  background-image: url('../images/LinkdeinIconFixed.svg');
+  background-image: url('../images/Linkedin.svg');
   background-repeat: no-repeat;
   background-position-x: right;
   background-position-y: bottom;
   -webkit-filter: drop-shadow(0px 0px 5px #ffffff);
   filter: drop-shadow(0px 0px 5px #ffffff);
+  z-index: 999999999999999999999999999999999999999999;
 } */
 
 /* .fifth-anim {
@@ -9630,8 +9641,36 @@ a:active {
 .logo-img {
   width: 77px;
 }
-#test1:hover{
+#test1:hover {
   fill: white;
 }
+.test1000 {
+  position: relative;
+}
+.test2000 {
+  position: absolute;
+  bottom: -30px;
+  right: -30px;
+}
+.explore {
+  font: normal 900 24px / Montserrat Alternates;
+  font: normal normal 500 24px/40px Montserrat Alternates;
+  color: #15fdfd;
+  display: inline;
+}
 
-
+.news-mobile {
+  font: normal 900 24px / Montserrat Alternates;
+  font: normal normal 500 17px/40px Montserrat Alternates;
+  color: #15fdfd;
+  display: inline;
+}
+.hrtag {
+  border: 2px solid #fff;
+}
+.arrow-class {
+  margin-top: -35px;
+}
+.arrow-class-mobile {
+  margin-top: -8px;
+}
