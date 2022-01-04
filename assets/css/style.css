@@ -9718,3 +9718,9 @@ a:active {
   display: flex;
   flex-direction: column;
 }
+.fund-learn-more {
+  letter-spacing: 0;
+  font: normal 900 24px / Montserrat Alternates;
+  font: normal normal 500 18px/40px Montserrat Alternates;
+  color: #15fdfd;
+}
