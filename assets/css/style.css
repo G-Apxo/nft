@@ -8928,6 +8928,7 @@ a:active {
   color: #00061c;
   opacity: 1;
   font-family: Montserrat Alternates;
+  transition: 0.3s;
 }
 .extra {
   color: white !important;
@@ -9371,48 +9372,20 @@ a:active {
   padding-left: 2rem;
   background-position-y: bottom;
 }
-.test1:hover {
-  animation: nicehover 1s linear;
-  animation-fill-mode: forwards;
+
+.test1 {
+  transition: 0.3s;
+}
+
+svg > path.test1:hover {
+  fill: white;
 }
 
 /* HERE ARE SOME ANIMATIONS  */
 
-@keyframes nicehover {
-  0% {
-    fill: white;
-    opacity: 0.5;
-  }
-  30% {
-    fill: white;
-    opacity: 1;
-  }
-  90% {
-    opacity: 1;
-  }
-}
-
 .costume-btn:hover {
-  animation: nicehover 1s linear;
-  animation-fill-mode: forwards;
-}
-
-@keyframes nicehover {
-  0% {
-    background-color: #7673fe;
-    color: white;
-    opacity: 0.5;
-  }
-  30% {
-    background-color: #7673fe;
-    color: white;
-    opacity: 1;
-  }
-  90% {
-    background-color: #7673fe;
-    color: white;
-    opacity: 1;
-  }
+  background-color: #7673fe;
+  color: white;
 }
 
 .seeded {
@@ -9756,4 +9729,7 @@ a:active {
   left: 20%;
   margin-top: -4%;
   z-index: 9;
+}
+.changable-header {
+  margin-bottom: 75px;
 }
