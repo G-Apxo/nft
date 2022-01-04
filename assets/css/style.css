@@ -12,10 +12,20 @@ body {
   position: relative;
   overflow-x: hidden;
 }
+.content-mobile{
+  display: none;
+ }
 @media only screen and (max-width: 575px) {
   body {
     font-size: 15px;
+    
   }
+  .content-mobile{
+    display: block;
+   }
+   .content-web{
+     display: none;
+   }
 }
 
 /*-------------------------------------------------
@@ -9623,3 +9633,5 @@ a:active {
 #test1:hover{
   fill: white;
 }
+
+
