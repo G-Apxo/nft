@@ -9723,4 +9723,37 @@ a:active {
   font: normal 900 24px / Montserrat Alternates;
   font: normal normal 500 18px/40px Montserrat Alternates;
   color: #15fdfd;
+  margin-left: 40px;
+}
+.fund-learn-more:hover {
+  font: normal bold 18px/32px Montserrat Alternates;
+  text-align: left;
+  font: normal normal bold 18px/32px Montserrat Alternates;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  font-size: 18px;
+}
+.fund-learn-more-costum {
+  letter-spacing: 0;
+  font: normal 900 24px / Montserrat Alternates;
+  font: normal normal 500 18px/40px Montserrat Alternates;
+  color: #15fdfd;
+}
+.badge-funds {
+  position: absolute;
+  background: #15fdfd 0% 0% no-repeat padding-box;
+  box-shadow: 0px 0px 20px #15fdfd;
+  border-radius: 16px;
+  opacity: 1;
+  font: normal 900 19px/25px Montserrat Alternates;
+  letter-spacing: 0;
+  color: #192242;
+  text-align: center;
+  font: normal normal 900 21px/25px Montserrat Alternates;
+  letter-spacing: 0px;
+  opacity: 1;
+  left: 20%;
+  margin-top: -4%;
+  z-index: 9;
 }
