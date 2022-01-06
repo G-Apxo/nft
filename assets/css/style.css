@@ -9729,3 +9729,6 @@ a:active {
 .changable-header {
   margin-bottom: 75px;
 }
+.students {
+  padding-left: 0;
+}
